@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-portofolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.header-logo-portofolio {
+    height: 36px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    color: #fd4766;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+ul li a {
+    color: #fd4766;
+    position: relative;
+    padding: 5px 0;
+}
+
+ul li a:hover {
+    color: #fd4766;
+    text-decoration: underline;
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+.content-portofolio {
+    position: absolute;
+    top: 30%;
+    left: 8%;   
+}
+
+.section-title {
+    color: #fd4766;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 50px;
+    text-transform: inherit;
+    width: 100%;
+}
+
+.content-item-ui {
+    position: relative;
+    height: 140%;
+    left: 155%;
+    transform: translate(-50%);
+    top: 5px;
+    justify-content: flex-end;
+}
+
+.content-item-ui h3 {
+    top: 30%;
+    padding-left: 70px;
+    line-height: 45px;
+    font-family: 'Playfair Display';
+    font-size: 28px;
+    color: #2f2f30;
+}
+
+.content-item-ui img {
+    height: 300px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.portofolio-ui a {
+    font-size: 16px;
+    border: 1px solid #fd4766;
+    background-color: #fd4766;
+    color: #ffffff;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 500px;
+    font-weight: normal;
+}
+
+.portofolio-ui p {
+    line-height: 80px;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.portofolio-ui a:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+
+.footer {
+    background-color: #fd4766;
+    color: #ffffff;
+    width: 350%;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    bottom: -150px;
+}
+
+.footer-content p {
+    text-align: center;
+    font-size: 13px;
+}
